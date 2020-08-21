@@ -27,13 +27,25 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach does not need a return key, does not return a new array
+.map needs a return key, does return a new array
+
 2. Explain the difference between a callback and a higher order function.
+
+A call back takes a functions variable through another function with lexical scope
+A higher order function calls within its own functions not using outside scope
 
 3. What is closure?
 
+It is nested functions with references to each other/surrounding state
+
 4. Describe the four rules of the 'this' keyword.
 
+window binding, explicit binding, implicit binding, new binding
+
 5. Why do we need super() in an extended class?
+
+It adds the properties/attributes and methods from the parent class that you "extends"
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
